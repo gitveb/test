@@ -1,0 +1,236 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sen', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #000;
+}
+
+section {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 66px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'Sen';
+  src: url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sen bold';
+  src: url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card {
+  padding: 20px;
+  -webkit-box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.16);
+  border: 1px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image__img {
+  width: 500px;
+  height: 500px;
+}
+
+.price {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 30px;
+}
+
+.price__title {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.price__num {
+  font-size: 32px;
+  margin-right: 15px;
+}
+
+.price-cost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.price-cost__num2, .price-cost__num3, .price-cost__num4, .price-cost__num5, .price-cost__num6, .price-cost__num7, .price-cost__num8, .price-cost__num9, .price-cost__num10 {
+  display: none;
+}
+
+.price-cost__value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.price-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.price-value__total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.price__width {
+  margin-bottom: 10px;
+}
+
+.price-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 19px;
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+.price-list__item {
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.price-list__item:hover {
+  background: #5e2e20;
+  color: #fff;
+}
+
+.price-item {
+  background: #5e2e20;
+  color: #fff;
+}
+
+.price-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.price-button__basket {
+  margin-bottom: 15px;
+}
+
+.price-button__click:hover {
+  background: red;
+}
+
+.button {
+  border: none;
+  outline: none;
+  padding: 13px 29px;
+  background: #5e2e20;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 17px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.width {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
