@@ -184,7 +184,6 @@ a {
 .price-list__item {
   padding: 15px;
   border: 1px solid #000;
-  border-radius: 20px;
   margin-right: 8px;
   margin-bottom: 8px;
   cursor: pointer;
@@ -212,17 +211,24 @@ a {
 
 .price-button__basket {
   margin-bottom: 15px;
+  background: #5e2e20;
+  border: none;
+}
+
+.price-button__click {
+  background: red;
+  border: 2px solid transparent;
 }
 
 .price-button__click:hover {
-  background: red;
+  border: 2px solid red;
+  color: red;
+  background: #ffff;
 }
 
 .button {
-  border: none;
   outline: none;
   padding: 13px 29px;
-  background: #5e2e20;
   text-transform: uppercase;
   color: #fff;
   font-size: 17px;
